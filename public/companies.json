@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "Google",
+    "logo": "https://cdn-icons-png.flaticon.com/512/300/300221.png",
+    "location": "California, USA",
+    "website": "https://www.google.com",
+    "industry": "Technology",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        "location": "Remote",
+        "salary": "$2000 - $3000",
+        "jobType": "Full-Time",
+        "description": "Build and maintain modern React applications.",
+        "requirements": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS",
+          "Git",
+          "REST API"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://images.unsplash.com/photo-1558655146-9f40138edfeb",
+        "location": "California",
+        "salary": "$1800 - $2500",
+        "jobType": "Full-Time",
+        "description": "Design user-friendly interfaces and experiences.",
+        "requirements": [
+          "Figma",
+          "Adobe XD",
+          "Wireframing",
+          "Prototyping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Microsoft",
+    "logo": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+    "location": "Washington, USA",
+    "website": "https://www.microsoft.com",
+    "industry": "Software",
+    "jobs": [
+      {
+        "id": "job-003",
+        "title": "Backend Developer",
+        "bannerImage": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+        "location": "Remote",
+        "salary": "$2500 - $3500",
+        "jobType": "Full-Time",
+        "description": "Develop scalable backend services.",
+        "requirements": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JWT"
+        ]
+      },
+      {
+        "id": "job-004",
+        "title": "DevOps Engineer",
+        "bannerImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+        "location": "Washington",
+        "salary": "$3000 - $4500",
+        "jobType": "Full-Time",
+        "description": "Manage deployment and cloud infrastructure.",
+        "requirements": [
+          "Docker",
+          "AWS",
+          "CI/CD",
+          "Linux"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Amazon",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968870.png",
+    "location": "Seattle, USA",
+    "website": "https://www.amazon.com",
+    "industry": "E-Commerce",
+    "jobs": [
+      {
+        "id": "job-005",
+        "title": "Software Engineer",
+        "bannerImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+        "location": "Hybrid",
+        "salary": "$2800 - $4000",
+        "jobType": "Full-Time",
+        "description": "Develop enterprise-level software solutions.",
+        "requirements": [
+          "Java",
+          "Spring Boot",
+          "SQL",
+          "Git"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Netflix",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+    "location": "Los Angeles, USA",
+    "website": "https://www.netflix.com",
+    "industry": "Entertainment",
+    "jobs": [
+      {
+        "id": "job-006",
+        "title": "React Developer",
+        "bannerImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+        "location": "Remote",
+        "salary": "$2200 - $3200",
+        "jobType": "Full-Time",
+        "description": "Build streaming platform features.",
+        "requirements": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "API Integration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Meta",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968764.png",
+    "location": "California, USA",
+    "website": "https://www.meta.com",
+    "industry": "Social Media",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Full Stack Developer",
+        "bannerImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+        "location": "Remote",
+        "salary": "$3000 - $5000",
+        "jobType": "Full-Time",
+        "description": "Develop full-stack web applications.",
+        "requirements": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express.js"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tesla",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5969/5969125.png",
+    "location": "Texas, USA",
+    "website": "https://www.tesla.com",
+    "industry": "Automotive",
+    "jobs": [
+      {
+        "id": "job-008",
+        "title": "Software Tester",
+        "bannerImage": "https://images.unsplash.com/photo-1516321497487-e288fb19713f",
+        "location": "Texas",
+        "salary": "$1800 - $2600",
+        "jobType": "Full-Time",
+        "description": "Test and validate software products.",
+        "requirements": [
+          "Manual Testing",
+          "Automation Testing",
+          "Selenium",
+          "Bug Reporting"
+        ]
+      }
+    ]
+  }
+]
