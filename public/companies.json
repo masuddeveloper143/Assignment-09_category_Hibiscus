@@ -179,5 +179,327 @@
         ]
       }
     ]
+  },
+  {
+    "id": 7,
+    "name": "Apple",
+    "logo": "https://cdn-icons-png.flaticon.com/512/0/747.png",
+    "location": "California, USA",
+    "website": "https://www.apple.com",
+    "industry": "Technology",
+    "jobs": [
+      {
+        "id": "job-009",
+        "title": "iOS Developer",
+        "location": "California",
+        "salary": "$3000 - $4500",
+        "jobType": "Full-Time",
+        "description": "Develop iOS applications.",
+        "requirements": [
+          "Swift",
+          "UIKit",
+          "Xcode"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Adobe",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png",
+    "location": "California, USA",
+    "website": "https://www.adobe.com",
+    "industry": "Software",
+    "jobs": [
+      {
+        "id": "job-010",
+        "title": "Frontend Engineer",
+        "location": "Remote",
+        "salary": "$2500 - $3500",
+        "jobType": "Full-Time",
+        "description": "Build creative cloud interfaces.",
+        "requirements": [
+          "React",
+          "JavaScript",
+          "CSS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Spotify",
+    "logo": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
+    "location": "Stockholm, Sweden",
+    "website": "https://www.spotify.com",
+    "industry": "Music Streaming",
+    "jobs": [
+      {
+        "id": "job-011",
+        "title": "React Developer",
+        "location": "Remote",
+        "salary": "$2200 - $3400",
+        "jobType": "Full-Time",
+        "description": "Build music streaming features.",
+        "requirements": [
+          "React",
+          "Redux",
+          "API"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Airbnb",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2111/2111320.png",
+    "location": "California, USA",
+    "website": "https://www.airbnb.com",
+    "industry": "Hospitality",
+    "jobs": [
+      {
+        "id": "job-012",
+        "title": "Backend Developer",
+        "location": "Remote",
+        "salary": "$2800 - $4000",
+        "jobType": "Full-Time",
+        "description": "Build booking systems.",
+        "requirements": [
+          "Node.js",
+          "MongoDB",
+          "Express"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Uber",
+    "logo": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
+    "location": "California, USA",
+    "website": "https://www.uber.com",
+    "industry": "Transportation",
+    "jobs": [
+      {
+        "id": "job-013",
+        "title": "Software Engineer",
+        "location": "Hybrid",
+        "salary": "$3000 - $4500",
+        "jobType": "Full-Time",
+        "description": "Develop ride-sharing systems.",
+        "requirements": [
+          "Java",
+          "Spring Boot",
+          "SQL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "LinkedIn",
+    "logo": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+    "location": "California, USA",
+    "website": "https://www.linkedin.com",
+    "industry": "Professional Network",
+    "jobs": [
+      {
+        "id": "job-014",
+        "title": "Full Stack Developer",
+        "location": "Remote",
+        "salary": "$3200 - $5000",
+        "jobType": "Full-Time",
+        "description": "Build networking platforms.",
+        "requirements": [
+          "React",
+          "Node.js",
+          "MongoDB"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Intel",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5969/5969294.png",
+    "location": "California, USA",
+    "website": "https://www.intel.com",
+    "industry": "Hardware",
+    "jobs": [
+      {
+        "id": "job-015",
+        "title": "QA Engineer",
+        "location": "California",
+        "salary": "$2200 - $3200",
+        "jobType": "Full-Time",
+        "description": "Test hardware and software products.",
+        "requirements": [
+          "Testing",
+          "Automation",
+          "Linux"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Samsung",
+    "logo": "https://cdn-icons-png.flaticon.com/512/882/882640.png",
+    "location": "Seoul, South Korea",
+    "website": "https://www.samsung.com",
+    "industry": "Electronics",
+    "jobs": [
+      {
+        "id": "job-016",
+        "title": "Android Developer",
+        "location": "Hybrid",
+        "salary": "$2500 - $3800",
+        "jobType": "Full-Time",
+        "description": "Develop Android applications.",
+        "requirements": [
+          "Kotlin",
+          "Android Studio",
+          "API"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Oracle",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5969/5969242.png",
+    "location": "Texas, USA",
+    "website": "https://www.oracle.com",
+    "industry": "Database",
+    "jobs": [
+      {
+        "id": "job-017",
+        "title": "Database Engineer",
+        "location": "Texas",
+        "salary": "$2800 - $4200",
+        "jobType": "Full-Time",
+        "description": "Manage enterprise databases.",
+        "requirements": [
+          "SQL",
+          "Oracle DB",
+          "PL/SQL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "IBM",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5969/5969316.png",
+    "location": "New York, USA",
+    "website": "https://www.ibm.com",
+    "industry": "Technology",
+    "jobs": [
+      {
+        "id": "job-018",
+        "title": "Cloud Engineer",
+        "location": "Remote",
+        "salary": "$3000 - $4500",
+        "jobType": "Full-Time",
+        "description": "Work with cloud platforms.",
+        "requirements": [
+          "AWS",
+          "Docker",
+          "Kubernetes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Twitter",
+    "logo": "https://cdn-icons-png.flaticon.com/512/733/733579.png",
+    "location": "California, USA",
+    "website": "https://twitter.com",
+    "industry": "Social Media",
+    "jobs": [
+      {
+        "id": "job-019",
+        "title": "Frontend Engineer",
+        "location": "Remote",
+        "salary": "$2500 - $3500",
+        "jobType": "Full-Time",
+        "description": "Develop social media interfaces.",
+        "requirements": [
+          "React",
+          "TypeScript",
+          "Redux"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "PayPal",
+    "logo": "https://cdn-icons-png.flaticon.com/512/174/174861.png",
+    "location": "California, USA",
+    "website": "https://www.paypal.com",
+    "industry": "FinTech",
+    "jobs": [
+      {
+        "id": "job-020",
+        "title": "Node.js Developer",
+        "location": "Remote",
+        "salary": "$2800 - $4000",
+        "jobType": "Full-Time",
+        "description": "Develop payment services.",
+        "requirements": [
+          "Node.js",
+          "MongoDB",
+          "REST API"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Dropbox",
+    "logo": "https://cdn-icons-png.flaticon.com/512/174/174854.png",
+    "location": "California, USA",
+    "website": "https://www.dropbox.com",
+    "industry": "Cloud Storage",
+    "jobs": [
+      {
+        "id": "job-021",
+        "title": "React Engineer",
+        "location": "Remote",
+        "salary": "$2600 - $3900",
+        "jobType": "Full-Time",
+        "description": "Build cloud storage interfaces.",
+        "requirements": [
+          "React",
+          "JavaScript",
+          "API"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Slack",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2111/2111615.png",
+    "location": "California, USA",
+    "website": "https://slack.com",
+    "industry": "Communication",
+    "jobs": [
+      {
+        "id": "job-022",
+        "title": "Frontend Developer",
+        "location": "Remote",
+        "salary": "$2500 - $3700",
+        "jobType": "Full-Time",
+        "description": "Build collaboration tools.",
+        "requirements": [
+          "React",
+          "TypeScript",
+          "Tailwind"
+        ]
+      }
+    ]
   }
 ]

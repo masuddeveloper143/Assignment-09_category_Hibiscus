@@ -8,6 +8,11 @@ import CompanyDetails from "../pages/CompanyDetails";
 import MyProfile from "../pages/MyProfile";
 import Login from "../pages/Login";
 import TestCard from "../Component/TestCard/TestCard";
+import UpdateProfile from "../pages/UpdateProfile";
+import About from "../pages/About";
+import Companies from "../Component/Companies";
+import ForgetPassword from "../pages/ForgotPassword";
+import PrivateRoute from "../Component/PrivateRoute";
 // import CompanyCard from "../Component/CompanyCard";
 // import JobCard from "../Component/JobCard";
 
@@ -23,7 +28,11 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Home></Home>,
+                element: (
+                    <PrivateRoute>
+                        <Home />
+                    </PrivateRoute>
+                ),
             },
 
             {
@@ -36,11 +45,21 @@ const router = createBrowserRouter([
             },
             {
                 path: "company/:id",
-                element: <CompanyDetails></CompanyDetails>
+                element: (
+                    <PrivateRoute>
+                        <CompanyDetails></CompanyDetails>
+                    </PrivateRoute>
+                )
             },
+
             {
                 path: "profile",
-                element: <MyProfile></MyProfile>
+                element: (
+                    <PrivateRoute>
+                        <MyProfile></MyProfile>
+                    </PrivateRoute>
+                )
+
             },
             // {
             //     path: "/companyCard",
@@ -56,6 +75,40 @@ const router = createBrowserRouter([
             //     path: "jobcard",
             //     element: <JobCard></JobCard>
             // }
+
+            {
+                path: "update-profile",
+                element: (
+                    <PrivateRoute>
+                        <UpdateProfile />
+                    </PrivateRoute>
+                )
+            },
+
+            {
+                path: "/about",
+                element: (
+                    <PrivateRoute>
+                        <About />
+                    </PrivateRoute>
+                )
+            },
+
+            {
+                path: "/companies",
+                element: (
+                    <PrivateRoute>
+                        <Companies />
+                    </PrivateRoute>
+                )
+            },
+
+            {
+                path: "/forget-password",
+                element: <ForgetPassword></ForgetPassword>
+            },
+
+
 
         ],
 
